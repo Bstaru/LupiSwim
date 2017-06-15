@@ -1,0 +1,40 @@
+/*GENERALES*/
+	body{
+		/*font-family: 'Ravi Prakash', cursive;*/
+		font-family: 'Viga', sans-serif;
+		overflow-x: hidden;
+	}
+/*NAVBAR*/
+	nav{
+		background-color: #B43772;
+		color: white;
+	}
+	.imgLogo{
+		width: 30%;
+	}
+	a {color: white;}
+	.navbar-nav > li > a:hover,
+	.navbar-nav > li > a:focus {
+	  color: white;
+	  text-decoration: none;
+	  background-color: rgba(0,0,0,0.2);
+	}
+	.menu{
+	margin-bottom: 55px;
+	}
+	.logotipo{
+		padding: 7px;
+	}
+	.logotipo img {
+		height: 35px; width: 35px;
+	}
+
+/*---
+ 	#About{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-image: url('../img/img1.jpg');
+	color: white;
+ 	}
+--*/
