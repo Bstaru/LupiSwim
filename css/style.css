@@ -1,6 +1,5 @@
 /*GENERALES*/
 	body{
-		/*font-family: 'Ravi Prakash', cursive;*/
 		font-family: 'Didact Gothic', sans-serif;
 		overflow-x: hidden;
 	}
@@ -12,10 +11,11 @@
 
 	.imgLogo{
 		width: 30%;
-	}
+		}
+
 	.busquedas{
 		margin:2%;
-	}
+		}
 	.txtSearch{
 		border-radius: 20px 0 0 20px;
 		}
@@ -52,8 +52,9 @@
 		}
 
 	.menu{
-	margin-bottom: 55px;
-	}
+		margin-bottom: 55px;
+		}
+
 @media (max-width: 768px){
 	.navbar-nav > li {
 		border:none;
@@ -61,6 +62,11 @@
 		text-align: right;
 	}
 }
+
+	footer{
+		background-color: rgb(180,55,114);
+		color: white; 
+	}
 /*---
  	#About{
 	background-repeat: no-repeat;
