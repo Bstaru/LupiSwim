@@ -10,14 +10,12 @@
 	<!--Librerias-->			
 	<script type="text/javascript" src="js/jquery-2.1.4.min.js" ></script>
 	<link href="css/bootstrap.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Ravi+Prakash" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet"> 
+  
+  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
   <link rel="stylesheet" type="text/css" href="css/icon.css">
-  <link rel="stylesheet" type="text/css" href="css/transition.css">
 
-   <link rel="stylesheet" type="text/css" href="css/animate.css">
    <link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake.min.css">
 
 	<!--Estilos-->	
@@ -29,7 +27,20 @@
     <div class="container">
       <div class="img-responsive text-center">
         <img src="img/logo.png" class="imgLogo">
-      </div>      
+      </div> 
+
+      <div class="nav navbar-nav navbar-right">
+        <form class="navbar-form busquedas" role="search">
+        <div class="input-group add-on">
+          <input class="form-control txtSearch" placeholder="Buscar ..." name="srch-term" id="srch-term" type="text">
+          <div class="input-group-btn">
+            <button class="btn btn-default btnSearch" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+          </div>
+        </div>
+      </form>
+      </div>
+      
+
     </div>
 
     <nav class="navbar nb-color " role="navigation">
@@ -37,18 +48,18 @@
         <div class="navbar-header">
           <button type="button" class="navbar-toggle nb-btn-mini" data-toggle="collapse" data-target=".navbar-ex1-collapse">
             <span class="sr-only">More</span>
-            <i class="content icon" style="font-size: 20px;"></i>
+            <i class="content icon" style="font-size: 25px;"></i>
           </button>
           <!--a class="navbar-brand logotipo" href="#Main" id="mm"><img src="img/RavenCorp.png" class = "logoNav"></a-->
         </div>
         
-        <div class="collapse navbar-collapse navbar-ex1-collapse" >
-          <ul class="nav navbar-nav">          
-            <li><a href="#Main" class = "nb-link" id="mm"><i class="home icon" style="font-size: 30px;"></i></a></li>
-            <li><a href="#TAO" class = "nb-link" id="tt"><i class="game icon"></i>Trajes de baño</a></li>
-            <li><a href="#Our" class = "nb-link" id="oo"><i class="users icon"></i>Gorras</a></li>
-            <li><a href="#About" class = "nb-link" id="aa"><i class="warning circle icon"></i>Goggles</a></li>           
-            <li><a href="#Download" class = "nb-link" id="dd"><i class="mail icon"></i>Acerca de</a></li>          
+        <div class="collapse navbar-collapse navbar-ex1-collapse text-center" >
+          <ul class="nav navbar-nav secciones">          
+            <li><a href="#Main" class = "nb-link" id="mm">Inicio</a></li>
+            <li><a href="#TAO" class = "nb-link" id="tt">Trajes de baño</a></li>
+            <li><a href="#Our" class = "nb-link" id="oo">Gorras</a></li>
+            <li><a href="#About" class = "nb-link" id="aa"></i>Goggles</a></li>           
+            <li><a href="#Download" class = "nb-link" id="dd">Más</a></li>          
           </ul>
          </div>
       </div>
