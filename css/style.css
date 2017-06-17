@@ -1,9 +1,17 @@
 /*GENERALES*/
-	body{
-		font-family: 'Didact Gothic', sans-serif;
-		overflow-x: hidden;
-	}
-/*NAVBAR*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body{
+	font-family: 'Didact Gothic', sans-serif;
+	overflow-x: hidden;
+	background-color: #efefef;
+	  /* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+
+/*NAVBAR-------------------------------------------------- */
 	nav{
 		background-color: rgb(180,55,114);
 		color: white;
@@ -17,7 +25,8 @@
 		margin:2%;
 		}
 	.txtSearch{
-		border-radius: 20px 0 0 20px;
+		border-radius: 20px 0 0 20px !important;
+		background-color: white !important;
 		}
 	.btnSearch{
 		background-color: #43B8A5;
@@ -35,7 +44,8 @@
 		width: 100%;
 		}
 	.navbar-nav > li {
-		border-right:  2px solid white;
+		border-right:  1px solid white;
+		border-left:  1px solid white;
 		width: 20%;
 		}
 	.navbar-nav > li > a {
@@ -55,18 +65,32 @@
 		margin-bottom: 55px;
 		}
 
-@media (max-width: 768px){
-	.navbar-nav > li {
-		border:none;
-		width: 100%;
-		text-align: right;
+	@media (max-width: 768px){
+		.navbar-nav > li {
+			border:none;
+			width: 100%;
+			text-align: right;
+		}
 	}
-}
+
+/*FOOTER-------------------------------------------------- */
 
 	footer{
 		background-color: rgb(180,55,114);
 		color: white; 
+		}
+	.footer {
+	  position: absolute;
+	  bottom: 0;
+	  width: 100%;
+	  /* Set the fixed height of the footer here  height: 30px;*/
 	}
+
+/*CONTENIDO INICIO----------------------------------------- */
+[phead="rosa"]{
+	color: white  !important;
+	background-color: rgb(180,55,114) !important;
+}
 /*---
  	#About{
 	background-repeat: no-repeat;

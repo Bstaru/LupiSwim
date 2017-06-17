@@ -7,24 +7,73 @@
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">	
 
-	<!--Librerias-->			
-	<script type="text/javascript" src="js/jquery-2.1.4.min.js" ></script>
-	<link href="css/bootstrap.css" rel="stylesheet">
-  
+  <!--LETRAS-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
-
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--CSS-->  
   <link rel="stylesheet" type="text/css" href="css/icon.css">
-
-   <link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake.min.css">
-
-	<!--Estilos-->	
-	<link href="css/style.css" rel="stylesheet">
+   <link href="css/bootstrap.css" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake.min.css"> 
+	
+  <link href="css/style.css" rel="stylesheet">
 
 </head>
 
 <body>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+
+      <div class="modal-body">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="email">Email:</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="pwd">Password:</label>
+              <div class="col-sm-10"> 
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+              </div>
+            </div>
+            <div class="form-group"> 
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label><input type="checkbox"> Remember me</label>
+                </div>
+              </div>
+            </div>
+          </form>
+      </div>
+
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-default">Submit</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!--_______________________________________________________________________________________-->
+
 <div class="container-fluid">
+
+  <div class="row login">
+    <div class="container">
+       <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Open Modal</button>
+    </div>
+  </div>
 
   <div class="row navbarsito">
     
@@ -70,25 +119,93 @@
 
   <div class="row notis">
     <div class="container">
-      <h1>oa</h1>
-    </div>
-    
+       <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="la.jpg" alt="Los Angeles">
+            </div>
+
+            <div class="item">
+              <img src="chicago.jpg" alt="Chicago">
+            </div>
+
+            <div class="item">
+              <img src="ny.jpg" alt="New York">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+      </div>
+
+      <br>
+
+        <div class="col-sm-4">
+          <div class="panel-group">
+
+            <div class="panel panel-default">
+              <div class="panel-heading" phead = "rosa">Panel Header</div>
+              <div class="panel-body">Panel Content</div>
+            </div>
+
+            <div class="panel panel-default"  >
+              <div class="panel-heading" phead = "rosa">Panel Header</div>
+              <div class="panel-body">Panel Content</div>
+            </div>
+
+          </div>    
+        </div>
+
+        <div class="col-sm-8">
+          <div class="panel-group">
+
+            <div class="panel panel-default">
+              <div class="panel-heading"  phead = "aqua">Panel Header</div>
+              <div class="panel-body">Panel Content</div>
+            </div>
+            
+          </div>    
+        </div>
+
+    </div>  
+     <br> <br> 
   </div>
 
-  <div class="row footersito">
- 
-    
-  </div>
 </div>
-
    <footer class="footer">
       <div class="container">
-        <h1>jeje</h1>
+        <div class="col-sm-4">
+          <a href="#">Acerca de</a>
+        </div>
+         <div class="col-sm-4">
+
+        </div>
+        <div class="col-sm-4">
+          <h3>Síguenos: </h3>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+        </div>
       </div>
     </footer>
 
 </body>
 	<!--Jcueros y eso-->
-	<script type="text/javascript" src = "js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js" ></script>
+  <script type="text/javascript" src = "js/bootstrap.js"></script>
   <script type="text/javascript" src = "js/scrolito.js"></script>
 </html>
