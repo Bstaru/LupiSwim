@@ -16,11 +16,28 @@ body{
 		background-color: rgb(180,55,114);
 		color: white;
 		}
-
-	.imgLogo{
-		width: 30%;
+	.navCont{
+		position: relative;
 		}
 
+	.logotipo{
+		width:30px;
+	}	
+	.imgLogoCont{
+		margin-bottom: 10px;
+	}
+	.imgLogo{
+		width: 25%;
+		}
+
+		.BusGpo{
+			border: 3px solid white;
+			border-radius: 20px;
+		}
+	.buscarCont{
+		position: absolute;
+		top: 50%; left: 0;
+	}
 	.busquedas{
 		margin:2%;
 		}
@@ -29,9 +46,9 @@ body{
 		background-color: white !important;
 		}
 	.btnSearch{
-		background-color: #43B8A5;
+		background-color: #66DDAF;
 		color: white;
-		border: 1px solid #43B8A5;
+		border: 1px solid #66DDAF;
 		border-radius: 0 20px 20px 0;
 		}
 	.btnSearch:hover{
@@ -46,12 +63,12 @@ body{
 	.navbar-nav > li {
 		border-right:  1px solid white;
 		border-left:  1px solid white;
-		width: 20%;
+		width: 16.5%;
 		}
 	.navbar-nav > li > a {
 		color: white;
 		text-transform: uppercase;
-		font-size: 18px;
+		font-size: 17px;
 		font-weight: bold;
 		}
 	.navbar-nav > li > a:hover,
@@ -71,6 +88,15 @@ body{
 			width: 100%;
 			text-align: right;
 		}
+		.imgLogoCont{
+			display: none;
+		}
+		.buscarCont{
+			top: 0;
+			left: 0;
+			width: 80%;
+			margin: 0;
+		}
 	}
 
 /*FOOTER-------------------------------------------------- */
@@ -85,18 +111,44 @@ body{
 	  width: 100%;
 	  /* Set the fixed height of the footer here  height: 30px;*/
 	}
+	.paginas{
+		display: inline-block;
+	}
+	.paginas span{
+		margin-right: 10px;
+		font-size: 20px;
+	}
+	.paginas a{
+	color: #66DDAF;
+}
+	.pag{
+		width: 13%;
+		margin: 5px;
+	}
+
 
 /*CONTENIDO INICIO----------------------------------------- */
+
 [phead="rosa"]{
 	color: white  !important;
 	background-color: rgb(180,55,114) !important;
 }
-/*---
- 	#About{
+/*CONTENIDO CONTACTO----------------------------------------- */
+.datos{
+	font-size: 24px;
+}
+.datos a{
+	color: rgb(180,55,114);
+}
+ #map {
+       width: 100%;
+       height: 300px;
+       background-color: grey;
+ }
+/*
+.imgCaru{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
-	background-image: url('../img/img1.jpg');
-	color: white;
- 	}
---*/
+	background-image: url('../img/tigres.png');
+}*/
