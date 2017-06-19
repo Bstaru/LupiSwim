@@ -72,7 +72,8 @@ body{
 		font-weight: bold;
 		}
 	.navbar-nav > li > a:hover,
-	.navbar-nav > li > a:focus {
+	.navbar-nav > li > a:focus,
+	.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
 	  color: white;
 	  text-decoration: none;
 	  background-color: rgba(0,0,0,0.2);
@@ -120,7 +121,7 @@ body{
 	}
 	.paginas a{
 	color: #66DDAF;
-}
+	}
 	.pag{
 		width: 13%;
 		margin: 5px;
@@ -129,22 +130,31 @@ body{
 
 /*CONTENIDO INICIO----------------------------------------- */
 
-[phead="rosa"]{
-	color: white  !important;
-	background-color: rgb(180,55,114) !important;
-}
+	[phead="rosa"]{
+		color: white  !important;
+		background-color: rgb(180,55,114) !important;
+	}
 /*CONTENIDO CONTACTO----------------------------------------- */
-.datos{
-	font-size: 24px;
-}
-.datos a{
-	color: rgb(180,55,114);
-}
- #map {
-       width: 100%;
-       height: 300px;
-       background-color: grey;
- }
+	.datos{
+		font-size: 24px;
+	}
+	.datos a{
+		color: rgb(180,55,114);
+	}
+	 #map {
+	       width: 100%;
+	       height: 300px;
+	       background-color: grey;
+	 }
+/*CONTENIDO TRAJES*/
+	.menuTrajes {
+ 		margin:0; padding: 0;
+
+	}
+ 	.menuTrajes li{
+ 		list-style: none;
+ 		margin:0; padding: 0;
+ 	}
 /*
 .imgCaru{
 	background-repeat: no-repeat;

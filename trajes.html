@@ -105,7 +105,15 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse text-center" >
           <ul class="nav navbar-nav secciones">          
             <li><a href="index.html" class = "nb-link" id="men">Inicio</a></li>
-            <li><a href="trajes.html" class = "nb-link" id="men">Trajes de baño</a></li>
+            <li class="dropdown" id="men">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="men">Trajes de baño
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="trajes.html">Mujer</a></li>
+                  <li><a href="trajes.html">Hombre</a></li>
+                  <li><a href="trajes.html">Niños</a></li>
+                </ul>
+            </li>
             <li><a href="#" class = "nb-link" id="men">Gorras</a></li>
             <li><a href="#" class = "nb-link" id="men"></i>Goggles</a></li>           
             <li><a href="#" class = "nb-link" id="men">Otro</a></li>  
@@ -125,13 +133,14 @@
         <div class="panel-group">
 
           <div class="panel panel-default">
-            <div class="panel-heading" phead = "rosa">Panel Header</div>
-            <div class="panel-body">Panel Content</div>
-          </div>
-
-          <div class="panel panel-default"  >
-            <div class="panel-heading" phead = "rosa">Panel Header</div>
-            <div class="panel-body">Panel Content</div>
+            <div class="panel-heading" phead = "rosa"><b>TIPO DE TRAJE</b></div>
+            <div class="panel-body">
+              <ul class="menuTrajes">
+                <li>Sublimados</li>
+                 <li>Strap</li>
+                  <li>Skinny</li>
+              </ul>
+            </div>
           </div>
 
         </div>    
