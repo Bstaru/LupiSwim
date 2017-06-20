@@ -1,0 +1,13 @@
+DISEÑO QUE PROBABLEMENTE USE O QUITE
+
+MENU, EN TRAJES DE BAÑO, UN SUBMENU ---------------------------------------------
+<li class="dropdown" id="men">
+              <a class="dropdown-toggle " data-toggle="dropdown" href="#" id="men">Trajes de baño
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  
+                    <li><a href="trajes.html">Mujer</a></li>
+                    <li><a href="trajes.html">Hombre</a></li>
+                 
+                </ul>
+            </li>

@@ -1,10 +1,21 @@
+
+/*
+.imgCaru{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-image: url('../img/tigres.png');
+}*/
+
 /*GENERALES*/
 html {
   position: relative;
   min-height: 100%;
 }
-body{
+*{
 	font-family: 'Didact Gothic', sans-serif;
+}
+body{
 	overflow-x: hidden;
 	background-color: #efefef;
 	  /* Margin bottom by footer height */
@@ -22,44 +33,46 @@ body{
 
 	.logotipo{
 		width:30px;
-	}	
-	.imgLogoCont{
-		margin-bottom: 10px;
-	}
-	.imgLogo{
-		width: 25%;
+		}	
+		.imgLogoCont{
+			margin-bottom: 10px;
 		}
+		.imgLogo{
+			width: 25%;
+			}
 
-		.BusGpo{
-			border: 3px solid white;
-			border-radius: 20px;
+	.BusGpo{
+		border: 3px solid white;
+		border-radius: 20px;
 		}
-	.buscarCont{
-		position: absolute;
-		top: 50%; left: 0;
-	}
-	.busquedas{
-		margin:2%;
+		.buscarCont{
+			position: absolute;
+			top: 50%; left: 0;
 		}
-	.txtSearch{
-		border-radius: 20px 0 0 20px !important;
-		background-color: white !important;
-		}
-	.btnSearch{
-		background-color: #66DDAF;
-		color: white;
-		border: 1px solid #66DDAF;
-		border-radius: 0 20px 20px 0;
-		}
-	.btnSearch:hover{
-		background-color: #43C3A5;
-		color: white;
-		border: 1px solid #43C3A5;
-		}
+		.busquedas{
+			margin:2%;
+			}
+
+		.txtSearch{
+			border-radius: 20px 0 0 20px !important;
+			background-color: white !important;
+			}
+		.btnSearch{
+			background-color: #66DDAF;
+			color: white;
+			border: 1px solid #66DDAF;
+			border-radius: 0 20px 20px 0;
+			}
+		.btnSearch:hover{
+			background-color: #43C3A5;
+			color: white;
+			border: 1px solid #43C3A5;
+			}
 
 	.secciones{
 		width: 100%;
 		}
+
 	.navbar-nav > li {
 		border-right:  1px solid white;
 		border-left:  1px solid white;
@@ -78,7 +91,24 @@ body{
 	  text-decoration: none;
 	  background-color: rgba(0,0,0,0.2);
 		}
+	.dropdown-menu {
+    margin-right:-1000px;
+    background-color: #B43772;
+	}
 
+	.dropdown-menu > li {
+	    display: inline-block;
+	    font-size: 18px;
+	    color: white;
+	}
+	.dropdown-menu > li >a {
+	    color: white;
+	}
+	.dropdown-menu > li >a:hover {
+		background-color: transparent;
+		color: white;
+		text-shadow: 0px 0px 18px rgba(255, 255, 255, 1);
+	}
 	.menu{
 		margin-bottom: 55px;
 		}
@@ -89,13 +119,29 @@ body{
 			width: 100%;
 			text-align: right;
 		}
+		.dropdown-menu {
+		    margin-right:0px;
+		    background-color: #B43772;
+			}
+		.dropdown-menu > li {
+		    display: block;
+		    font-size: 18px;
+		    text-align: right;
+		    color: white;
+		}
 		.imgLogoCont{
-			display: none;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 20;
+		}
+		.imgLogoCont img{
+			width: 90px;
 		}
 		.buscarCont{
 			top: 0;
-			left: 0;
-			width: 80%;
+			left: 65px;
+			width: 60%;
 			margin: 0;
 		}
 	}
@@ -131,6 +177,7 @@ body{
 /*CONTENIDO INICIO----------------------------------------- */
 
 	[phead="rosa"]{
+		font-size: 19px;
 		color: white  !important;
 		background-color: rgb(180,55,114) !important;
 	}
@@ -147,18 +194,76 @@ body{
 	       background-color: grey;
 	 }
 /*CONTENIDO TRAJES*/
+	.panGpo{
+		border-radius: 30px !important;
+	}
+	.cabeza{
+		border-radius: 30px 30px 0 0 !important;
+		text-align: center;
+	}
+	.panBody{
+		padding-right: 5px; padding-left: 5px;
+	}
 	.menuTrajes {
  		margin:0; padding: 0;
-
 	}
- 	.menuTrajes li{
+	[subM = "M"]{
+		text-align: center;
+		background-color: #B54C7D;
+		font-size: 20px;
+		border-radius: 10px;
+	}
+	.menuTrajes > div {
+		text-decoration: none;
+		color: white;
+		cursor: pointer;
+	}
+	.menuTrajes > div > a:hover{
+		text-shadow: 0px 0px 18px rgba(255, 255, 255, 1);
+	}
+
+ 	.menuTrajes > div, .sub_menuTrajes > li{
  		list-style: none;
- 		margin:0; padding: 0;
+ 		margin:10px 0; padding:5px;
  	}
-/*
-.imgCaru{
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 50% 50%;
-	background-image: url('../img/tigres.png');
-}*/
+ 	/*---------------------------------------------------------*/
+ 	.menuTrajes ul{
+ 		padding: 0;
+ 	}
+ 	.sub_menuTrajes li {
+ 		text-align: left;
+		background-color: #fff;
+		font-size: 15px;
+		padding: 5px 10px;
+ 	}
+	.sub_menuTrajes > li:hover{
+		background-color: #efefef;
+	}
+ 	.sub_menuTrajes > li > a{
+ 		text-decoration: none;
+ 		color: black;
+ 	}
+ 	.sub_menuTrajes > li > a:hover{
+ 		text-decoration: none;
+ 		color: black; 		
+ 	}
+ 	/*------------------------------------------------------*/
+ 	.colrs{
+ 		height: 100px; width: 100px;
+ 		display: inline-block; 		
+ 	}
+ 	[colorsito = "1"]{ background-color: #000;}
+ 	[colorsito = "2"]{ background-color: #fff;}
+ 	[colorsito = "3"]{ background-color: #aaa;}
+ 	[colorsito = "4"]{ background-color: #D40E0D;}
+ 	[colorsito = "5"]{ background-color: #071BCB;}
+ 	[colorsito = "6"]{ background-color: #101A61;}
+ 	[colorsito = "7"]{ background-color: #3D0B62;}
+ 	[colorsito = "8"]{ background-color: #FF6700;}
+ 	[colorsito = "9"]{ background-color: #34AE28;}
+	[colorsito = "10"]{ background-color: #06A1FB;}
+	[colorsito = "11"]{ background-color: #4C0139;}
+	[colorsito = "12"]{ background-color: #FEF200;}
+	[colorsito = "13"]{ background-color: #FF0BF4;}
+	[colorsito = "14"]{ background-color: #FF73A7;}
+ 	 

@@ -105,19 +105,11 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse text-center" >
           <ul class="nav navbar-nav secciones">          
             <li><a href="index.html" class = "nb-link" id="men">Inicio</a></li>
-            <li class="dropdown" id="men">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="men">Trajes de baño
-                <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="trajes.html">Mujer</a></li>
-                  <li><a href="trajes.html">Hombre</a></li>
-                  <li><a href="trajes.html">Niños</a></li>
-                </ul>
-            </li>
-            <li><a href="#" class = "nb-link" id="men">Gorras</a></li>
-            <li><a href="#" class = "nb-link" id="men"></i>Goggles</a></li>           
-            <li><a href="#" class = "nb-link" id="men">Otro</a></li>  
-            <li><a href="#" class = "nb-link" id="men">Contacto</a></li>          
+            <li><a href="trajes.html" class = "nb-link" id="men">Trajes de baño</a></li>
+            <li><a href="gorras.html" class = "nb-link" id="men">Gorras</a></li>
+            <li><a href="goggles.html" class = "nb-link" id="men"></i>Goggles</a></li>           
+            <li><a href="otro.html" class = "nb-link" id="men">Otro</a></li>  
+            <li><a href="contacto.html" class = "nb-link" id="men">Contacto</a></li>          
           </ul>
          </div>
       </div>
@@ -132,29 +124,82 @@
       <div class="col-sm-4">
         <div class="panel-group">
 
-          <div class="panel panel-default">
-            <div class="panel-heading" phead = "rosa"><b>TIPO DE TRAJE</b></div>
-            <div class="panel-body">
-              <ul class="menuTrajes">
-                <li>Sublimados</li>
-                 <li>Strap</li>
-                  <li>Skinny</li>
-              </ul>
-            </div>
+          <div class="panel panel-default panGpo">
+            <div class="panel-heading cabeza" phead = "rosa" > <b>ESTILO DE TRAJE</b></div>
+              <div class="panel-body panBody">
+
+                <ul class="menuTrajes">
+
+                    <div subM = "M" id="MM" data-toggle="collapse" data-target="#SM_M"> MUJER </div>
+                 
+                        <ul class="collapse in sub_menuTrajes" subM = "SM" id = "SM_M">
+                          <li><a href="#"> CLASSIC STRAP </a></li>
+                          <li><a href="#"> SKINNY STRAP  </a></li>
+                          <li><a href="#"> SHORTY  </a></li>
+                        </ul>                
+                  
+
+                    <div subM = "M" id="MH" data-toggle="collapse" data-target="#SM_H">HOMBRE </div>
+
+                    <ul class="collapse  sub_menuTrajes" subM = "SM"  id="SM_H" >
+                        <li><a href="#"> BRIEF  </a></li>
+                        <li><a href="#"> JAMMER  </a></li>
+                    </ul>
+
+                  </ul>
+
+              </div> 
+          </div>
+        </div> 
+
+         <div class="panel-group">
+
+          <div class="panel panel-default panGpo">
+            <div class="panel-heading cabeza" phead = "rosa" > <b>SUBLIMADOS</b></div>
+              <div class="panel-body panBody">
+
+              <p style="font-size: 18px;text-align: center;">
+                <b>¿Quieres usar tu propio diseño para tu equipo?</b> </p>
+                 <br>
+              <p style="font-size: 18px;">  Es sencillo, sólo envíanos el diseño que deseas y nos pondremos en contacto.
+                <a href="#">Leer más.</a>
+              </p>
+
+              </div> 
           </div>
 
-        </div>    
+        </div>     
       </div>
 
       <div class="col-sm-8">
-        <div class="panel-group">
-
-          <div class="panel panel-default">
-            <div class="panel-heading"  phead = "aqua">Panel Header</div>
-            <div class="panel-body">Panel Content</div>
+        <div class="headCont">
+          <h3>ESTILO</h3>        
+        </div>
+        <div class="ChoseColor">
+          <h4>Elige una base sólida (color)</h4>
+          <div class="colores">
+            <div class="colrs" colorsito = "1">Negro</div>
+            <div class="colrs" colorsito = "2">Blanco</div>
+            <div class="colrs" colorsito = "3">Gris</div>
+            <div class="colrs" colorsito = "4">Rojo</div>
+            <div class="colrs" colorsito = "5">Azul</div>
+            <div class="colrs" colorsito = "6">Marino</div>
+            <div class="colrs" colorsito = "7">Morado</div>
+            <div class="colrs" colorsito = "8">Naranja</div>
+            <div class="colrs" colorsito = "9">Verde</div>
+            <div class="colrs" colorsito = "10">Cielo</div>
+            <div class="colrs" colorsito = "11">Marron</div>
+            <div class="colrs" colorsito = "12">Amarillo</div>
+            <div class="colrs" colorsito = "13">Rosa</div>
+            <div class="colrs" colorsito = "14">Rosa Claro</div>
           </div>
-          
-        </div>    
+        </div> 
+        <div class="StampColor">
+          <h4>Ahora un estampado</h4>
+          <div class="estampado">
+            
+          </div>
+        </div>  
       </div>
 
     </div>  
@@ -164,7 +209,8 @@
   </div>
 
 </div>
-     <footer class="footer">
+
+  <footer class="footer">
       <div class="container">
         <div class="col-sm-2">
           <span>©LupiSwim</span>
@@ -178,11 +224,13 @@
           
         </div>
       </div>
-    </footer>
+  </footer>
 
 </body>
 	<!--Jcueros y eso-->
-  <script type="text/javascript" src="js/jquery-2.1.4.min.js" ></script>
-  <script type="text/javascript" src = "js/bootstrap.js"></script>
-  <script type="text/javascript" src = "js/scrolito.js"></script>
+  <script   type="text/javascript" src="js/jquery-2.1.4.min.js" ></script>
+ 
+  <script  src = "js/bootstrap.js"></script>
+  <script  src = "js/scrolito.js"></script>
+  <script  src = "js/animations.js"></script>
 </html>
