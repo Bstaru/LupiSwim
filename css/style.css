@@ -227,44 +227,100 @@ body{
  		margin:10px 0; padding:5px;
  	}
  	/*---------------------------------------------------------*/
- 	.menuTrajes ul{
- 		padding: 0;
- 	}
- 	.sub_menuTrajes li {
- 		text-align: left;
-		background-color: #fff;
-		font-size: 15px;
-		padding: 5px 10px;
- 	}
-	.sub_menuTrajes > li:hover{
-		background-color: #efefef;
-	}
- 	.sub_menuTrajes > li > a{
- 		text-decoration: none;
- 		color: black;
- 	}
- 	.sub_menuTrajes > li > a:hover{
- 		text-decoration: none;
- 		color: black; 		
- 	}
+
+	 	.menuTrajes ul{
+	 		padding: 0;
+	 	}
+	 	.sub_menuTrajes li {
+	 		text-align: left;
+			background-color: #fff;
+			font-size: 15px;
+			padding: 5px 10px;
+	 	}
+		.sub_menuTrajes > li:hover{
+			background-color: #efefef;
+		}
+	 	.sub_menuTrajes > li > a{
+	 		text-decoration: none;
+	 		color: black;
+	 	}
+	 	.sub_menuTrajes > li > a:hover{
+	 		text-decoration: none;
+	 		color: black; 		
+	 	}
  	/*------------------------------------------------------*/
- 	.colrs{
- 		height: 80px; width: 80px;
- 		margin: 5px;
- 		display: inline-block; 		
- 	}
- 	[colorsito = "1"]{ background-color: #000; color: white;}
- 	[colorsito = "2"]{ background-color: #fff;}
- 	[colorsito = "3"]{ background-color: #aaa;}
- 	[colorsito = "4"]{ background-color: #D40E0D;}
- 	[colorsito = "5"]{ background-color: #071BCB;color: white;}
- 	[colorsito = "6"]{ background-color: #101A61;color: white;}
- 	[colorsito = "7"]{ background-color: #3D0B62;color: white;}
- 	[colorsito = "8"]{ background-color: #FF6700;}
- 	[colorsito = "9"]{ background-color: #34AE28;}
-	[colorsito = "10"]{ background-color: #06A1FB;}
-	[colorsito = "11"]{ background-color: #4C0139;color: white;}
-	[colorsito = "12"]{ background-color: #FEF200;}
-	[colorsito = "13"]{ background-color: #FF0BF4;}
-	[colorsito = "14"]{ background-color: #FF73A7;}
- 	 
+
+	 	.colrs, .textu{
+	 		height: 90px; width: 90px;
+	 		margin: 5px;
+	 		display: inline-block; 
+	 		border-radius: 5px;		
+	 		}
+		/*color----*/
+		 	[colorsito = "1"]{ background-color: #000; color: white;}
+		 	[colorsito = "2"]{ background-color: #fff;}
+		 	[colorsito = "3"]{ background-color: #aaa;}
+		 	[colorsito = "4"]{ background-color: #D40E0D;}
+		 	[colorsito = "5"]{ background-color: #071BCB;color: white;}
+		 	[colorsito = "6"]{ background-color: #101A61;color: white;}
+		 	[colorsito = "7"]{ background-color: #3D0B62;color: white;}
+		 	[colorsito = "8"]{ background-color: #FF6700;}
+		 	[colorsito = "9"]{ background-color: #34AE28;}
+			[colorsito = "10"]{ background-color: #06A1FB;}
+			[colorsito = "11"]{ background-color: #4C0139;color: white;}
+			[colorsito = "12"]{ background-color: #FEF200;}
+			[colorsito = "13"]{ background-color: #FF0BF4;}
+			[colorsito = "14"]{ background-color: #FF73A7;}
+	 	 
+	 	.textu{
+	 		background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 50% 50%;
+			}
+		/*texturas----*/
+	 		[texturita = "1"]{ background-image:url(../img/texturas/textura1.png); }
+	 		[texturita = "2"]{ background-image:url(../img/texturas/textura2.png); }
+	 		[texturita = "3"]{ background-image:url(../img/texturas/textura3.png); }
+	 		[texturita = "4"]{ background-image:url(../img/texturas/textura4.png); }
+	 		[texturita = "5"]{ background-image:url(../img/texturas/textura5.png); }
+	 		[texturita = "6"]{ background-image:url(../img/texturas/textura6.png); }
+	 		[texturita = "7"]{ background-image:url(../img/texturas/textura7.png); }
+	 		[texturita = "8"]{ background-image:url(../img/texturas/textura8.png); }
+	 		[texturita = "9"]{ background-image:url(../img/texturas/textura9.png); }
+	 		[texturita = "10"]{ background-image:url(../img/texturas/textura10.png); }
+	 		[texturita = "11"]{ background-image:url(../img/texturas/textura11.png); }
+	 		[texturita = "12"]{ background-image:url(../img/texturas/textura12.png); }
+	 		[texturita = "13"]{ background-image:url(../img/texturas/textura13.png); }
+	 		[texturita = "14"]{ background-image:url(../img/texturas/textura14.png); }
+	 		[texturita = "15"]{ background-image:url(../img/texturas/textura15.png); }
+	 		[texturita = "16"]{ background-image:url(../img/texturas/textura16.png); }
+	 		[texturita = "17"]{ background-image:url(../img/texturas/textura17.png); }
+	 		[texturita = "18"]{ background-image:url(../img/texturas/textura18.png); }
+	 		[texturita = "19"]{ background-image:url(../img/texturas/textura19.png); }
+	 		[texturita = "20"]{ background-image:url(../img/texturas/textura20.png); }
+	 		[texturita = "21"]{ background-image:url(../img/texturas/textura21.png); }
+	 		[texturita = "22"]{ background-image:url(../img/texturas/textura22.png); }
+	 		[texturita = "23"]{ background-image:url(../img/texturas/textura23.png); }
+	 		[texturita = "24"]{ background-image:url(../img/texturas/textura24.png); }
+
+	 	.btnTextu{
+	 		height: 90px; width: 90px;
+	 		margin: 5px;
+	 		border: 0px;
+			border-radius: 5px;	
+
+	 		background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 50% 50%;
+			background-image:url(../img/texturas/textura25.png); 
+			vertical-align: baseline;
+	 		}
+
+	 	.prevs{
+	 		height: 90px; width: 90px;
+	 		margin: 5px;
+	 		display: inline-block; 
+	 		border-radius: 5px;		
+	 		}
+	 		#prevColor{ background-color: #000; }
+	 		#prevEstam{ background-color: #000;}
