@@ -249,20 +249,21 @@ body{
  	}
  	/*------------------------------------------------------*/
  	.colrs{
- 		height: 100px; width: 100px;
+ 		height: 80px; width: 80px;
+ 		margin: 5px;
  		display: inline-block; 		
  	}
- 	[colorsito = "1"]{ background-color: #000;}
+ 	[colorsito = "1"]{ background-color: #000; color: white;}
  	[colorsito = "2"]{ background-color: #fff;}
  	[colorsito = "3"]{ background-color: #aaa;}
  	[colorsito = "4"]{ background-color: #D40E0D;}
- 	[colorsito = "5"]{ background-color: #071BCB;}
- 	[colorsito = "6"]{ background-color: #101A61;}
- 	[colorsito = "7"]{ background-color: #3D0B62;}
+ 	[colorsito = "5"]{ background-color: #071BCB;color: white;}
+ 	[colorsito = "6"]{ background-color: #101A61;color: white;}
+ 	[colorsito = "7"]{ background-color: #3D0B62;color: white;}
  	[colorsito = "8"]{ background-color: #FF6700;}
  	[colorsito = "9"]{ background-color: #34AE28;}
 	[colorsito = "10"]{ background-color: #06A1FB;}
-	[colorsito = "11"]{ background-color: #4C0139;}
+	[colorsito = "11"]{ background-color: #4C0139;color: white;}
 	[colorsito = "12"]{ background-color: #FEF200;}
 	[colorsito = "13"]{ background-color: #FF0BF4;}
 	[colorsito = "14"]{ background-color: #FF73A7;}
