@@ -13,4 +13,15 @@ $(document).ready(function(){
 	$("#MM").click(function(){
 	    $("#SB_M").toggle("slow");
 	});
+
+
+	$("#wea")
+		.mouseover(function() {
+	    	$( '#ver' ).css('display','inline');
+		  })
+		.mouseout(function() {
+		    $( '#ver' ).css('display','none');
+		  });
+
+
 });
