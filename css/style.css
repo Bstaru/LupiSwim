@@ -30,7 +30,7 @@
 			margin-bottom: 10px;
 		}
 		.imgLogo{
-			width: 25%;
+			width: 17%;
 			}
 
 	.BusGpo{
@@ -166,7 +166,7 @@
 	}
 
 
-/*CONTENIDO INICIO----------------------------------------- */
+/*CONTENIDO INICIO------------------------------------------- */
 
 	[phead="rosa"]{
 		font-size: 19px;
@@ -185,7 +185,7 @@
 	       height: 300px;
 	       background-color: grey;
 	 }
-/*CONTENIDO TRAJES*/
+/*CONTENIDO TRAJES--------------------------------------------*/
 	.panGpo{
 		border-radius: 30px !important;
 	}
@@ -347,3 +347,30 @@
 	 		}
 	 		#prevColor{ background-color: #000; }
 	 		#prevEstam{ background-color: #000;}
+/*CONTENIDO GORRAS------------------------------------------- */
+.itemGorra{
+	width:235px;
+	display: inline-block;
+}
+.imgGorras{
+	display: inline-block;
+	margin: 3px;
+	position: relative;
+	}
+	.verGorra{
+		position: absolute;
+		bottom: 0;
+		background-color: rgb(180,55,114);;
+		width: 100%;
+		text-align: center;
+		display: none;
+	}
+	.verGorra a{
+		text-decoration: none;
+		color: white;
+		font-size: 20px;
+	}
+	.imgGorras img{
+		height: 200px;width:200px;
+	}
+	

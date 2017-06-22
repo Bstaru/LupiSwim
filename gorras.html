@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> LupiSwim </title>
+	<link rel="icon" href="img/logo.png">
+
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">	
+
+  <!--LETRAS-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+  <!--CSS-->  
+  <link rel="stylesheet" type="text/css" href="css/icon.css">
+   <link href="css/bootstrap.css" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake.min.css"> 
+	
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+
+      <div class="modal-body">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="email">Email:</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="pwd">Password:</label>
+              <div class="col-sm-10"> 
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+              </div>
+            </div>
+            <div class="form-group"> 
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label><input type="checkbox"> Remember me</label>
+                </div>
+              </div>
+            </div>
+          </form>
+      </div>
+
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-default">Submit</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!--_______________________________________________________________________________________-->
+
+<div class="container-fluid">
+
+   <!-- <div class="row login">
+    <div class="container">
+      <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Open Modal</button>
+    </div>
+  </div>-->
+
+  <div class="row navbarsito">
+    
+    <div class="container navCont">
+      <div class="img-responsive text-center imgLogoCont">
+        <img src="img/logo.png" class="imgLogo">
+      </div> 
+
+      <div class="nav navbar-nav navbar-right buscarCont">
+        <form class="navbar-form busquedas" role="search">
+        <div class="input-group add-on BusGpo">
+          <input class="form-control txtSearch" placeholder="Buscar ..." name="srch-term" id="srch-term" type="text">
+          <div class="input-group-btn">
+            <button class="btn btn-default btnSearch" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+          </div>
+        </div>
+      </form>
+      </div>
+    </div>
+
+    <nav class="navbar nb-color " role="navigation">
+      <div class = "container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle nb-btn-mini" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">More</span>
+            <i class="content icon" style="font-size: 25px;"></i>
+          </button>
+        </div>
+        
+        <div class="collapse navbar-collapse navbar-ex1-collapse text-center" >
+          <ul class="nav navbar-nav secciones">          
+            <li><a href="index.html" class = "nb-link" id="men">Inicio</a></li>
+            <li><a href="trajes.html" class = "nb-link" id="men">Trajes de baño</a></li>
+            <li><a href="gorras.html" class = "nb-link" id="men">Gorras</a></li>
+            <li><a href="goggles.html" class = "nb-link" id="men"></i>Goggles</a></li>           
+            <li><a href="otro.html" class = "nb-link" id="men">Otro</a></li>  
+            <li><a href="contacto.html" class = "nb-link" id="men">Contacto</a></li>          
+          </ul>
+         </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="row trajes">
+    <div class="container">
+
+
+
+      <div class="col-sm-4">
+        <div class="panel-group">
+
+          <div class="panel panel-default panGpo">
+            <div class="panel-heading cabeza" phead = "rosa" > <b>TIPO DE GORRA</b></div>
+              <div class="panel-body panBody">
+
+                <ul class="menuTrajes">
+
+                    <div subM = "M" id="MM" data-toggle="collapse" data-target="#silicon"> SILICON </div>
+                 
+                        <ul class="collapse sub_menuTrajes" subM = "SM" id = "silicon">
+                          <li><a href="#"> ESTAMPADOS </a></li>
+                          <li><a href="#"> LISAS  </a></li>
+                          <li><a href="#"> CASCO  </a></li>
+
+                        </ul>                
+                  
+
+                    <div subM = "M" id="MH" data-toggle="collapse" data-target="#sintex"> SINTEX </div>
+
+                    <ul class="collapse  sub_menuTrajes" subM = "SM"  id="sintex" >
+                          <li><a href="#"> LISAS  </a></li>
+                    </ul>
+
+
+                    <div subM = "M" id="MH" data-toggle="collapse" data-target="#spa"> SPA </div>
+
+                    <ul class="collapse  sub_menuTrajes" subM = "SM"  id="spa" >
+                          <li><a href="#"> LISAS  </a></li>
+                    </ul>
+                  </ul>
+
+
+              </div> 
+          </div>
+        </div> 
+
+        <div class="panel-group">
+            <div class="panel panel-default panGpo">
+              <div class="panel-heading cabeza" phead = "rosa" > <b>MI DISEÑO</b></div>
+                <div class="panel-body panBody">
+
+                <p style="font-size: 18px;text-align: center;">
+                  <b>¿Quieres usar tu propio diseño para tu equipo?</b> </p>
+                   <br>
+                <p style="font-size: 18px;">  Es sencillo, sólo envíanos el diseño que deseas y nos pondremos en contacto.
+                  <a href="#">Leer más.</a>
+                </p>
+
+                </div> 
+            </div>
+        </div>
+
+      </div>
+
+      <div class="col-sm-8">
+        <div class="headCont">
+          <h3>GORRAS: </h3>        
+        </div>
+        <div class="gorras">
+
+        <div class="itemGorra">
+          <div class="imgGorras" id="wea">
+            <div class="verGorra" id="ver"><a href="#">VER</a></div>
+            <img src="img/Gorras/silicon-ovni.png">
+          </div>
+          <div class="text-center">
+            <h3>Gorra Silicon Ovnis</h3>
+          </div>
+        </div>
+        <div class="itemGorra">
+          <div class="imgGorras" id="wea">
+            <div class="verGorra" id="ver"><a href="#">VER</a></div>
+            <img src="img/Gorras/silicon-mexico-n.png">
+          </div>
+          <div class="text-center">
+            <h3>Gorra Silicon Ovnis</h3>
+          </div>
+        </div>
+        <div class="itemGorra">
+          <div class="imgGorras" id="wea">
+            <div class="verGorra" id="ver"><a href="#">VER</a></div>
+            <img src="img/Gorras/silicon-swim.png">
+          </div>
+          <div class="text-center">
+            <h3>Gorra Silicon Ovnis</h3>
+          </div>
+        </div>
+
+        </div>
+      </div>
+
+    </div>  
+    <br>
+    <br> 
+
+  </div>
+
+</div>
+
+  <footer class="footer">
+      <div class="container">
+        <div class="col-sm-2">
+          <span>©LupiSwim</span>
+        </div>
+        <div class="col-sm-offset-7 col-sm-3">         
+          <div class="paginas">
+           <span>Síguenos: </span>
+            <a href="#"> <img src="img/fb.png" class="pag"> </a>
+            <a href="#"> <img src="img/twit.png" class="pag"> </a>
+          </div>
+          
+        </div>
+      </div>
+  </footer>
+
+</body>
+	<!--Jcueros y eso-->
+  <script   type="text/javascript" src="js/jquery-2.1.4.min.js" ></script>
+ 
+  <script  src = "js/bootstrap.js"></script>
+  <script  src = "js/scrolito.js"></script>
+  <script  src = "js/animations.js"></script>
+</html>

@@ -5,6 +5,7 @@ $(document).ready(function(){
 	    function runEffect() {
 
 
+<<<<<<< HEAD
 	      // get effect type from
 	      var selectedEffect = 'fade'
 	 
@@ -27,4 +28,28 @@ $(document).ready(function(){
 	      runEffect();
 	    });
 	  } );
+=======
+  /*  $(".btn1").click(function(){
+        $("p").slideUp();
+    });
+    $(".btn2").click(function(){
+        $("p").slideDown();
+    });*/
+
+
+	$("#MM").click(function(){
+	    $("#SB_M").toggle("slow");
+	});
+
+
+	$("#wea")
+		.mouseover(function() {
+	    	$( '#ver' ).css('display','inline');
+		  })
+		.mouseout(function() {
+		    $( '#ver' ).css('display','none');
+		  });
+
+
+>>>>>>> c0ac10effbd5453bc75ef5a42cbf9c16a14c89a0
 });
