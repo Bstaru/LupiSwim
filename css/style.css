@@ -1,26 +1,18 @@
 
-/*
-.imgCaru{
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 50% 50%;
-	background-image: url('../img/tigres.png');
-}*/
-
 /*GENERALES*/
-html {
-  position: relative;
-  min-height: 100%;
-}
-*{
-	font-family: 'Didact Gothic', sans-serif;
-}
-body{
-	overflow-x: hidden;
-	background-color: #efefef;
-	  /* Margin bottom by footer height */
-	margin-bottom: 60px;
-}
+	html {
+	  position: relative;
+	  min-height: 100%;
+	}
+	*{
+		font-family: 'Didact Gothic', sans-serif;
+	}
+	body{
+		overflow-x: hidden;
+		background-color: #efefef;
+		  /* Margin bottom by footer height */
+		margin-bottom: 60px;
+	}
 
 /*NAVBAR-------------------------------------------------- */
 	nav{
@@ -249,12 +241,27 @@ body{
 	 		color: black; 		
 	 	}
  	/*------------------------------------------------------*/
-
+ 		.cuadros{
+ 			height: 90px; width: 90px;
+	 		margin: 5px;
+	 		display: inline-block; 
+	 		border-radius: 5px;	
+	 		position: relative;
+ 		}
+ 		.textu2{
+ 			z-index: 1;
+	 		background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 50% 50%;
+ 			height: 100%; width: 100%;
+ 			position: absolute;
+ 			top: 0;
+ 		}
 	 	.colrs, .textu{
 	 		height: 90px; width: 90px;
 	 		margin: 5px;
 	 		display: inline-block; 
-	 		border-radius: 5px;		
+	 		border-radius: 5px;	
 	 		}
 		/*color----*/
 		 	[colorsito = "1"]{ background-color: #000; color: white;}
@@ -272,10 +279,26 @@ body{
 			[colorsito = "13"]{ background-color: #FF0BF4;}
 			[colorsito = "14"]{ background-color: #FF73A7;}
 	 	 
-	 	.textu{
+	 	.textu{	 		
+			z-index: 1;
+	 		background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 50% 50%;	
+			}
+		.textuZoom{
+			position: absolute;
+ 			top: 0;
+			z-index: 0;
+			height: 100%; width: 100%;
+	 		border-radius: 5px;	
 	 		background-repeat: no-repeat;
 			background-size: cover;
 			background-position: 50% 50%;
+			background-color: red;
+			/*background-image:url(../img/texturas/textura1.png);*/
+			-webkit-box-shadow: 0px 0px 47px 3px rgba(0,0,0,0.19);
+			-moz-box-shadow: 0px 0px 47px 3px rgba(0,0,0,0.19);
+			box-shadow: 0px 0px 47px 3px rgba(0,0,0,0.19);
 			}
 		/*texturas----*/
 	 		[texturita = "1"]{ background-image:url(../img/texturas/textura1.png); }
